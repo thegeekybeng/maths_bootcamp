@@ -1,0 +1,39 @@
+{
+  "overview": "Compute the mean of a set of numbers.",
+  "objectives": ["Find mean by total ÷ count"],
+  "refresher": "Add all values and divide by how many there are.",
+  "examples": {
+    "S": [{"title": "Mean of 6,7,11", "steps": ["Sum 6+7+11=24", "24 ÷ 3 = 8"]}]
+  },
+  "practice": [
+    {"id": "p_mean_001", "stem": "Find mean of 3, 5, 10, 12", "answer_steps": [
+      "Step 1: Add the numbers: 3 + 5 + 10 + 12 = 30.",
+      "Step 2: Count the numbers: 4.",
+      "Step 3: Divide total by count: 30 ÷ 4 = 7.5.",
+      "Step 4: The answer is 7.5."
+    ], "skills": ["mean_basics"], "difficulty": "S"}
+  ],
+  "hints": ["Keep track of count.", "Mean = total ÷ number of items."],
+  "common_mistakes": ["Dividing by wrong count"],
+  "reflection": ["How does a very large value affect the mean?"],
+
+  "section_test": [
+    {"id": "st_mean_001", "stem": "Find the mean of 6, 9, 15.", "answer_steps": [
+      "Step 1: Add the numbers: 6 + 9 + 15 = 30.",
+      "Step 2: Count the numbers: 3.",
+      "Step 3: Divide total by count: 30 ÷ 3 = 10.",
+      "Step 4: The answer is 10."
+    ], "skills": ["mean_basics"], "difficulty": "S"},
+    {"id": "st_mean_002", "stem": "The mean of 4, 8, 12 is?", "answer_steps": [
+      "Step 1: Add the numbers: 4 + 8 + 12 = 24.",
+      "Step 2: Count the numbers: 3.",
+      "Step 3: Divide total by count: 24 ÷ 3 = 8.",
+      "Step 4: The answer is 8."
+    ], "skills": ["mean_basics"], "difficulty": "F"},
+    {"id": "st_mean_003", "stem": "If the mean of five numbers is 6, what is their total?", "answer_steps": [
+      "Step 1: Total = mean × number of items.",
+      "Step 2: 6 × 5 = 30.",
+      "Step 3: The answer is 30."
+    ], "skills": ["mean_basics"], "difficulty": "F"}
+  ]
+}

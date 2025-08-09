@@ -1,0 +1,38 @@
+{
+  "overview": "Work with time reading, timetables, and elapsed time.",
+  "objectives": ["Compute elapsed time", "Interpret timetables"],
+  "refresher": "60 minutes = 1 hour. Regroup across hours as needed.",
+  "examples": {
+    "F": [{"title": "Elapsed time across the hour", "steps": ["From 2:45 to 3:00 is 15 min", "Add remaining minutes"]}]
+  },
+  "practice": [
+    {"id": "p_time_001", "stem": "From 09:50 to 10:25 is how long?", "answer_steps": [
+      "Step 1: From 09:50 to 10:00 is 10 minutes.",
+      "Step 2: From 10:00 to 10:25 is 25 minutes.",
+      "Step 3: Total elapsed time: 10 + 25 = 35 minutes.",
+      "Step 4: The answer is 35 min."
+    ], "skills": ["elapsed_time"], "difficulty": "F"}
+  ],
+  "hints": ["Break into parts: up to the hour, then the rest.", "Regroup minutes if needed."],
+  "common_mistakes": ["Subtracting minutes without regrouping"],
+  "reflection": ["How do you handle day boundaries?"],
+
+  "section_test": [
+    {"id": "st_time_001", "stem": "From 14:20 to 15:05 is how long?", "answer_steps": [
+      "Step 1: From 14:20 to 15:00 is 40 minutes.",
+      "Step 2: From 15:00 to 15:05 is 5 minutes.",
+      "Step 3: Total elapsed time: 40 + 5 = 45 minutes.",
+      "Step 4: The answer is 45 min."
+    ], "skills": ["elapsed_time"], "difficulty": "F"},
+    {"id": "st_time_002", "stem": "From 23:50 to 00:20 is how long?", "answer_steps": [
+      "Step 1: From 23:50 to 00:00 is 10 minutes.",
+      "Step 2: From 00:00 to 00:20 is 20 minutes.",
+      "Step 3: Total elapsed time: 10 + 20 = 30 minutes.",
+      "Step 4: The answer is 30 min."
+    ], "skills": ["elapsed_time"], "difficulty": "F"},
+    {"id": "st_time_003", "stem": "From 08:15 to 09:00 is how long?", "answer_steps": [
+      "Step 1: From 08:15 to 09:00 is 45 minutes.",
+      "Step 2: The answer is 45 min."
+    ], "skills": ["elapsed_time"], "difficulty": "F"}
+  ]
+}

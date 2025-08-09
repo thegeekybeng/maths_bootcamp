@@ -1,0 +1,35 @@
+[
+  {
+    "id": "q_frac_001",
+    "stem": "Simplify: 6/8",
+    "choices": ["3/4", "2/3", "4/6", "3/8"],
+    "answer": "3/4",
+    "explanations": [
+      "Divide numerator and denominator by their Greatest Common Factor (2).",
+      "6/8 = 3/4."
+    ],
+    "skills": ["equivalents"],
+    "difficulty": "F",
+    "tags": ["fractions", "simplify"],
+    "common_errors": [
+      { "type": "conceptual", "note": "Divides only numerator or denominator." },
+      { "type": "careless", "note": "Cancels 6 with 8 incorrectly." }
+    ]
+  },
+  {
+    "id": "q_time_001",
+    "stem": "A bus leaves at 14:25 and arrives at 15:10. How long is the journey?",
+    "choices": ["35 min", "45 min", "50 min", "55 min"],
+    "answer": "45 min",
+    "explanations": [
+      "From 14:25 to 15:00 is 35 min; to 15:10 adds 10 min; total 45 min."
+    ],
+    "skills": ["elapsed_time"],
+    "difficulty": "F",
+    "tags": ["time", "elapsed"],
+    "common_errors": [
+      { "type": "careless", "note": "Misreads 14:25 as 14:35." },
+      { "type": "conceptual", "note": "Subtracts 25 from 10 without regrouping across the hour." }
+    ]
+  }
+]

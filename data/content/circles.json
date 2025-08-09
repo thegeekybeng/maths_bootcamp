@@ -1,0 +1,38 @@
+{
+  "overview": "Work with circumference and area of circles.",
+  "objectives": ["Use π in circumference and area"],
+  "refresher": "C = 2πr, A = πr².",
+  "examples": {
+    "T": [{"title": "Find area when diameter given", "steps": ["r = d/2", "Apply A = πr²"]}]
+  },
+  "practice": [
+    {"id": "p_cir_001", "stem": "Find the circumference of a circle with diameter 10 cm (use π=3.14)", "answer_steps": [
+      "Step 1: Circumference = π × diameter.",
+      "Step 2: π = 3.14, diameter = 10 cm.",
+      "Step 3: 3.14 × 10 = 31.4 cm.",
+      "Step 4: The answer is 31.4 cm."
+    ], "skills": ["circumference"], "difficulty": "S"}
+  ],
+  "hints": ["Use r, not d, in formulas.", "Circumference = π × diameter."],
+  "common_mistakes": ["Using diameter in place of radius"],
+  "reflection": ["What is the difference between radius and diameter?"],
+
+  "section_test": [
+    {"id": "st_cir_001", "stem": "Find the area of a circle with radius 7 cm (use π=3.14)", "answer_steps": [
+      "Step 1: Area = π × r².",
+      "Step 2: r = 7 cm, so r² = 49.",
+      "Step 3: 3.14 × 49 = 153.86 cm².",
+      "Step 4: The answer is 153.86 cm²."
+    ], "skills": ["area_circle"], "difficulty": "F"},
+    {"id": "st_cir_002", "stem": "A circle has diameter 12 cm. What is its circumference? (π=3.14)", "answer_steps": [
+      "Step 1: Circumference = π × diameter.",
+      "Step 2: 3.14 × 12 = 37.68 cm.",
+      "Step 3: The answer is 37.68 cm."
+    ], "skills": ["circumference"], "difficulty": "S"},
+    {"id": "st_cir_003", "stem": "Find the radius if the diameter is 18 cm.", "answer_steps": [
+      "Step 1: Radius = diameter ÷ 2.",
+      "Step 2: 18 ÷ 2 = 9 cm.",
+      "Step 3: The answer is 9 cm."
+    ], "skills": ["circle_properties"], "difficulty": "S"}
+  ]
+}

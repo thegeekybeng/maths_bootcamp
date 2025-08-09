@@ -1,0 +1,37 @@
+{
+  "overview": "Decimals extend place value to tenths, hundredths, and beyond.",
+  "objectives": ["Read/write decimals", "Compare decimals", "Add/subtract decimals"],
+  "refresher": "Tenths (0.1), hundredths (0.01). Line up decimal points when adding/subtracting.",
+  "examples": {
+    "F": [{"title": "Compare 0.6 and 0.56", "steps": ["Pad with zeros: 0.60 vs 0.56", "0.60 > 0.56"]}]
+  },
+  "practice": [
+    {"id": "p_dec_001", "stem": "0.4 + 0.35 = ?", "answer_steps": [
+      "Step 1: Line up the decimal points.",
+      "Step 2: Add tenths: 0.4 + 0.3 = 0.7.",
+      "Step 3: Add hundredths: 0.7 + 0.05 = 0.75.",
+      "Step 4: The answer is 0.75."
+    ], "skills": ["ops_dec"], "difficulty": "S"}
+  ],
+  "hints": ["Align decimal points.", "Add tenths and hundredths separately."],
+  "common_mistakes": ["Adding digits without aligning decimals"],
+  "reflection": ["How are decimals and fractions related?"],
+
+  "section_test": [
+    {"id": "st_dec_001", "stem": "0.8 - 0.25 = ?", "answer_steps": [
+      "Step 1: Line up the decimal points.",
+      "Step 2: Subtract hundredths: 0.80 - 0.25 = 0.55.",
+      "Step 3: The answer is 0.55."
+    ], "skills": ["ops_dec"], "difficulty": "S"},
+    {"id": "st_dec_002", "stem": "Which is greater: 0.67 or 0.7?", "answer_steps": [
+      "Step 1: Pad with zeros: 0.67 vs 0.70.",
+      "Step 2: Compare tenths: 6 < 7, so 0.7 is greater.",
+      "Step 3: The answer is 0.7."
+    ], "skills": ["compare"], "difficulty": "F"},
+    {"id": "st_dec_003", "stem": "Add: 0.23 + 0.09", "answer_steps": [
+      "Step 1: Line up the decimal points.",
+      "Step 2: Add hundredths: 0.23 + 0.09 = 0.32.",
+      "Step 3: The answer is 0.32."
+    ], "skills": ["ops_dec"], "difficulty": "S"}
+  ]
+}

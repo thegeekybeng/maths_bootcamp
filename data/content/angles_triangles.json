@@ -1,0 +1,38 @@
+{
+  "overview": "Use angle sums and triangle properties.",
+  "objectives": ["Angle rules on a line/point", "Sum of angles in triangle"],
+  "refresher": "Angles on a straight line sum to 180°. Triangle angles sum to 180°.",
+  "examples": {
+    "S": [{"title": "Find missing angle on straight line", "steps": ["180° - known angles"]}]
+  },
+  "practice": [
+    {"id": "p_ang_001", "stem": "In a triangle with angles 45°, 55°, the third is?", "answer_steps": [
+      "Step 1: The sum of angles in a triangle is 180°.",
+      "Step 2: Add the given angles: 45° + 55° = 100°.",
+      "Step 3: Subtract from 180°: 180° - 100° = 80°.",
+      "Step 4: The answer is 80°."
+    ], "skills": ["angle_properties", "triangle_properties"], "difficulty": "S"}
+  ],
+  "hints": ["Mark given angles on a sketch.", "Remember triangle angles sum to 180°."],
+  "common_mistakes": ["Using 360° instead of 180° for triangle"],
+  "reflection": ["Which angle rules do you know?"],
+
+  "section_test": [
+    {"id": "st_ang_001", "stem": "Find the missing angle: 120°, __, 30° on a straight line.", "answer_steps": [
+      "Step 1: Angles on a straight line sum to 180°.",
+      "Step 2: Add known angles: 120° + 30° = 150°.",
+      "Step 3: Subtract from 180°: 180° - 150° = 30°.",
+      "Step 4: The answer is 30°."
+    ], "skills": ["angle_properties"], "difficulty": "S"},
+    {"id": "st_ang_002", "stem": "A triangle has angles 60°, 60°, and __?", "answer_steps": [
+      "Step 1: Triangle angles sum to 180°.",
+      "Step 2: 60° + 60° = 120°.",
+      "Step 3: 180° - 120° = 60°.",
+      "Step 4: The answer is 60°."
+    ], "skills": ["triangle_properties"], "difficulty": "F"},
+    {"id": "st_ang_003", "stem": "What is the sum of angles at a point?", "answer_steps": [
+      "Step 1: Angles at a point sum to 360°.",
+      "Step 2: The answer is 360°."
+    ], "skills": ["angle_properties"], "difficulty": "F"}
+  ]
+}

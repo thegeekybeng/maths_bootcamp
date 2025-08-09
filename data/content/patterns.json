@@ -1,0 +1,40 @@
+{
+  "overview": "Recognise and extend numerical patterns.",
+  "objectives": ["Find term-to-term rules"],
+  "refresher": "Look at differences between terms.",
+  "examples": {
+    "F": [{"title": "2, 4, 6, 8, ?", "steps": ["Add 2 each time", "Next is 10"]}]
+  },
+  "practice": [
+    {"id": "p_pat_001", "stem": "What comes next: 5, 8, 11, ?", "answer_steps": [
+      "Step 1: Find the difference between terms: 8 - 5 = 3, 11 - 8 = 3.",
+      "Step 2: The pattern increases by 3 each time.",
+      "Step 3: Next term: 11 + 3 = 14.",
+      "Step 4: The answer is 14."
+    ], "skills": ["term_to_term"], "difficulty": "F"}
+  ],
+  "hints": ["Compute first differences.", "Look for addition or subtraction patterns."],
+  "common_mistakes": ["Assuming multiplication when addition fits"],
+  "reflection": ["How to check a found rule?"],
+
+  "section_test": [
+    {"id": "st_pat_001", "stem": "What comes next: 2, 5, 8, ?", "answer_steps": [
+      "Step 1: Find the difference: 5 - 2 = 3, 8 - 5 = 3.",
+      "Step 2: Pattern increases by 3.",
+      "Step 3: Next term: 8 + 3 = 11.",
+      "Step 4: The answer is 11."
+    ], "skills": ["term_to_term"], "difficulty": "F"},
+    {"id": "st_pat_002", "stem": "What comes next: 10, 7, 4, ?", "answer_steps": [
+      "Step 1: Find the difference: 7 - 10 = -3, 4 - 7 = -3.",
+      "Step 2: Pattern decreases by 3.",
+      "Step 3: Next term: 4 - 3 = 1.",
+      "Step 4: The answer is 1."
+    ], "skills": ["term_to_term"], "difficulty": "F"},
+    {"id": "st_pat_003", "stem": "What comes next: 1, 2, 4, 7, ?", "answer_steps": [
+      "Step 1: Find the difference: 2 - 1 = 1, 4 - 2 = 2, 7 - 4 = 3.",
+      "Step 2: The differences increase by 1 each time.",
+      "Step 3: Next difference: 3 + 1 = 4, so next term: 7 + 4 = 11.",
+      "Step 4: The answer is 11."
+    ], "skills": ["term_to_term"], "difficulty": "F"}
+  ]
+}

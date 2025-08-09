@@ -1,0 +1,36 @@
+{
+  "overview": "Find areas of rectangles, triangles, and composite shapes.",
+  "objectives": ["Use area formulas", "Decompose composite shapes"],
+  "refresher": "Area rectangle = l × b; area triangle = 1/2 × b × h.",
+  "examples": {
+    "S": [{"title": "Area of a triangle", "steps": ["Base 8 cm, height 5 cm", "Area = 1/2 × 8 × 5 = 20 cm²"]}]
+  },
+  "practice": [
+    {"id": "p_area_001", "stem": "Find area of rectangle (7 cm by 3 cm)", "answer_steps": [
+      "Step 1: Area of a rectangle = length × breadth.",
+      "Step 2: 7 cm × 3 cm = 21 cm².",
+      "Step 3: The answer is 21 cm²."
+    ], "skills": ["area_rectangles_triangles"], "difficulty": "S"}
+  ],
+  "hints": ["Label units.", "Recall area = length × breadth."],
+  "common_mistakes": ["Forgetting 1/2 for triangle"],
+  "reflection": ["How can you split a composite shape?"],
+
+  "section_test": [
+    {"id": "st_area_001", "stem": "A square has sides of 5 cm. What is its area?", "answer_steps": [
+      "Step 1: Area of a square = side × side.",
+      "Step 2: 5 cm × 5 cm = 25 cm².",
+      "Step 3: The answer is 25 cm²."
+    ], "skills": ["area_square"], "difficulty": "S"},
+    {"id": "st_area_002", "stem": "Find the area of a triangle with base 10 cm and height 4 cm.", "answer_steps": [
+      "Step 1: Area of triangle = 1/2 × base × height.",
+      "Step 2: 1/2 × 10 cm × 4 cm = 20 cm².",
+      "Step 3: The answer is 20 cm²."
+    ], "skills": ["area_triangle"], "difficulty": "F"},
+    {"id": "st_area_003", "stem": "A rectangle is 8 cm by 6 cm. Find its area.", "answer_steps": [
+      "Step 1: Area = length × breadth.",
+      "Step 2: 8 cm × 6 cm = 48 cm².",
+      "Step 3: The answer is 48 cm²."
+    ], "skills": ["area_rectangles_triangles"], "difficulty": "S"}
+  ]
+}

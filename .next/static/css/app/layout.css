@@ -1,0 +1,19 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+/* Allow text selection globally (can be overridden locally) */
+html, body, *, *::before, *::after {
+  -webkit-user-select: text !important; /* Safari/iOS */
+  -moz-user-select: text !important;    /* Firefox */     /* IE/Edge (legacy) */
+  user-select: text !important;         /* Standard */
+}
+
+/* Basic reset */
+html, body {
+  height: 100%;
+}
+
+/* Ensure links and lists behave normally */
+a { color: inherit; }
+ul { padding-left: 1.25rem; }
+

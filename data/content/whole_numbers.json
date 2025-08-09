@@ -1,0 +1,48 @@
+{
+  "overview": "Whole numbers and place value form the base of arithmetic.",
+  "objectives": [
+    "Read and write whole numbers",
+    "Compare and order numbers",
+    "Round numbers to nearest 10/100/1000"
+  ],
+  "refresher": "Place value tells the value of a digit by its position (ones, tens, hundreds...).",
+  "examples": {
+    "F": [
+      {"title": "Rounding 146 to nearest 10", "steps": ["Look at ones: 6", "6≥5, round up", "146→150"]}
+    ],
+    "S": [
+      {"title": "Compare 3,405 and 3,450", "steps": ["Compare hundreds: 4=4", "Compare tens: 0<5 → 3,405 < 3,450"]}
+    ]
+  },
+  "practice": [
+    {"id": "p_whole_001", "stem": "Round 2,948 to the nearest hundred", "answer_steps": [
+      "Step 1: Identify the hundreds digit (9) and the digit to its right (4).",
+      "Step 2: Since 4 < 5, round down.",
+      "Step 3: Change digits to the right of hundreds to 0: 2,900.",
+      "Step 4: The answer is 2,900."
+    ], "skills": ["rounding"], "difficulty": "F"}
+  ],
+  "hints": ["Underline the rounding digit.", "Check if the digit to the right is 5 or more."],
+  "common_mistakes": ["Rounding down when ones digit is 5"],
+  "reflection": ["How does place value help in comparing numbers?"],
+
+  "section_test": [
+    {"id": "st_whole_001", "stem": "Round 5,672 to the nearest ten", "answer_steps": [
+      "Step 1: Identify the tens digit (7) and the digit to its right (2).",
+      "Step 2: Since 2 < 5, round down.",
+      "Step 3: Change digits to the right of tens to 0: 5,670.",
+      "Step 4: The answer is 5,670."
+    ], "skills": ["rounding"], "difficulty": "F"},
+    {"id": "st_whole_002", "stem": "Write the number 4,205 in words.", "answer_steps": [
+      "Step 1: Break into thousands and hundreds: 4,000 and 205.",
+      "Step 2: Write as 'Four thousand two hundred five'.",
+      "Step 3: The answer is 'Four thousand two hundred five'."
+    ], "skills": ["read_write"], "difficulty": "F"},
+    {"id": "st_whole_003", "stem": "Which is greater: 8,900 or 8,990?", "answer_steps": [
+      "Step 1: Compare thousands: both 8.",
+      "Step 2: Compare hundreds: both 9.",
+      "Step 3: Compare tens: 0 < 9, so 8,990 is greater.",
+      "Step 4: The answer is 8,990."
+    ], "skills": ["compare"], "difficulty": "F"}
+  ]
+}

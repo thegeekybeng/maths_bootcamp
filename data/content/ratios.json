@@ -1,0 +1,35 @@
+{
+  "overview": "Ratios compare two or more quantities.",
+  "objectives": ["Write ratios", "Scale up/down using ratios"],
+  "refresher": "a:b means for every a parts of one, there are b parts of another.",
+  "examples": {
+    "S": [{"title": "Scale a recipe (2:3)", "steps": ["Multiply both sides by same factor", "2:3 → 4:6"]}]
+  },
+  "practice": [
+    {"id": "p_ratio_001", "stem": "Simplify the ratio 12:18", "answer_steps": [
+      "Step 1: Find the greatest common factor (GCF) of 12 and 18, which is 6.",
+      "Step 2: Divide both terms by 6: 12 ÷ 6 = 2, 18 ÷ 6 = 3.",
+      "Step 3: The simplified ratio is 2:3."
+    ], "skills": ["ratio_basics"], "difficulty": "S"}
+  ],
+  "hints": ["Divide both terms by GCF.", "Check both numbers for common factors."],
+  "common_mistakes": ["Dividing only one term"],
+  "reflection": ["When are two ratios equivalent?"],
+
+  "section_test": [
+    {"id": "st_ratio_001", "stem": "Simplify the ratio 21:14", "answer_steps": [
+      "Step 1: Find the GCF of 21 and 14, which is 7.",
+      "Step 2: Divide both terms by 7: 21 ÷ 7 = 3, 14 ÷ 7 = 2.",
+      "Step 3: The simplified ratio is 3:2."
+    ], "skills": ["ratio_basics"], "difficulty": "S"},
+    {"id": "st_ratio_002", "stem": "If the ratio of boys to girls is 2:3 and there are 12 boys, how many girls are there?", "answer_steps": [
+      "Step 1: 2 parts = 12 boys, so 1 part = 6.",
+      "Step 2: Girls = 3 parts = 3 × 6 = 18.",
+      "Step 3: The answer is 18 girls."
+    ], "skills": ["ratio_word"], "difficulty": "S"},
+    {"id": "st_ratio_003", "stem": "Scale up the ratio 4:5 by a factor of 3.", "answer_steps": [
+      "Step 1: Multiply both terms by 3: 4 × 3 = 12, 5 × 3 = 15.",
+      "Step 2: The scaled ratio is 12:15."
+    ], "skills": ["ratio_scale"], "difficulty": "F"}
+  ]
+}

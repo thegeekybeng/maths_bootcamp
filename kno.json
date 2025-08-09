@@ -1,0 +1,94 @@
+{
+	"knownSymbols": {
+		"type { NextConfig": [
+			{
+				"name": "type { NextConfig",
+				"module": "next",
+				"isDefault": true
+			}
+		],
+		"type { NextApiRequest": [
+			{
+				"name": "type { NextApiRequest",
+				"module": "next",
+				"isDefault": true
+			}
+		],
+		"NextApiResponse": [
+			{
+				"name": "NextApiResponse",
+				"module": "next",
+				"isDefault": true
+			}
+		],
+		"PageProps": [
+			{
+				"name": "PageProps",
+				"path": "/Users/ymca/_dev_work_/_dev-WIP/maths_bootcamp/.next/types/app/page.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"LayoutProps": [
+			{
+				"name": "LayoutProps",
+				"path": "/Users/ymca/_dev_work_/_dev-WIP/maths_bootcamp/.next/types/app/page.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"type { ResolvingMetadata": [
+			{
+				"name": "type { ResolvingMetadata",
+				"module": "next/dist/lib/metadata/types/metadata-interface.js",
+				"isDefault": true
+			}
+		],
+		"ResolvingViewport": [
+			{
+				"name": "ResolvingViewport",
+				"module": "next/dist/lib/metadata/types/metadata-interface.js",
+				"isDefault": true
+			}
+		],
+		"nextConfig": [
+			{
+				"name": "nextConfig",
+				"path": "/Users/ymca/_dev_work_/_dev-WIP/maths_bootcamp/next.config.ts",
+				"isDefault": true
+			}
+		],
+		"handler": [
+			{
+				"name": "handler",
+				"path": "/Users/ymca/_dev_work_/_dev-WIP/maths_bootcamp/pages/api/health.ts",
+				"type": "function",
+				"isDefault": true
+			}
+		],
+		"Home": [
+			{
+				"name": "Home",
+				"path": "/Users/ymca/_dev_work_/_dev-WIP/maths_bootcamp/app/page.tsx",
+				"type": "function",
+				"isDefault": true
+			}
+		],
+		"metadata": [
+			{
+				"name": "metadata",
+				"path": "/Users/ymca/_dev_work_/_dev-WIP/maths_bootcamp/app/layout.tsx",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"RootLayout": [
+			{
+				"name": "RootLayout",
+				"path": "/Users/ymca/_dev_work_/_dev-WIP/maths_bootcamp/app/layout.tsx",
+				"type": "function",
+				"isDefault": true
+			}
+		]
+	}
+}

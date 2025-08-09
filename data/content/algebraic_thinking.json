@@ -1,0 +1,40 @@
+{
+  "overview": "Use letters to represent unknown numbers and balance simple equations.",
+  "objectives": ["Write simple expressions", "Solve one-step equations"],
+  "refresher": "Whatever you do to one side of an equation, do to the other side.",
+  "examples": {
+    "S": [{"title": "Solve x + 7 = 12", "steps": ["Subtract 7 from both sides", "x = 5"]}]
+  },
+  "practice": [
+    {"id": "p_alg_001", "stem": "Solve x  9 = 4", "answer_steps": [
+  "Step 1: x - 9 = 4.",
+      "Step 2: Add 9 to both sides: x = 4 + 9.",
+      "Step 3: x = 13.",
+      "Step 4: The answer is x = 13."
+    ], "skills": ["simple_equations"], "difficulty": "S"}
+  ],
+  "hints": ["Inverse operations.", "Do the same to both sides of the equation."],
+  "common_mistakes": ["Adding when you should subtract"],
+  "reflection": ["How to check a solution?"],
+
+  "section_test": [
+    {"id": "st_alg_001", "stem": "Solve x + 8 = 15", "answer_steps": [
+      "Step 1: x + 8 = 15.",
+      "Step 2: Subtract 8 from both sides: x = 15 - 8.",
+      "Step 3: x = 7.",
+      "Step 4: The answer is x = 7."
+    ], "skills": ["simple_equations"], "difficulty": "S"},
+    {"id": "st_alg_002", "stem": "Solve 2x = 18", "answer_steps": [
+      "Step 1: 2x = 18.",
+      "Step 2: Divide both sides by 2: x = 18 ÷ 2.",
+      "Step 3: x = 9.",
+      "Step 4: The answer is x = 9."
+    ], "skills": ["simple_equations"], "difficulty": "F"},
+    {"id": "st_alg_003", "stem": "If y - 5 = 11, what is y?", "answer_steps": [
+      "Step 1: y - 5 = 11.",
+      "Step 2: Add 5 to both sides: y = 11 + 5.",
+      "Step 3: y = 16.",
+      "Step 4: The answer is y = 16."
+    ], "skills": ["simple_equations"], "difficulty": "F"}
+  ]
+}

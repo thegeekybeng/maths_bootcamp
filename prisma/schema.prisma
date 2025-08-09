@@ -1,0 +1,94 @@
+// Prisma schema (starter) — not wired yet
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  role         String   @default("student")
+  createdAt    DateTime @default(now())
+  student      StudentProfile?
+}
+
+model StudentProfile {
+  id              String  @id @default(cuid())
+  userId          String  @unique
+  user            User    @relation(fields: [userId], references: [id])
+  displayName     String?
+  cohort          String?
+  preferredLogin  String?
+}
+
+model Topic {
+  id      String  @id @default(cuid())
+  name    String
+  strand  String
+  order   Int?
+  isActive Boolean @default(true)
+  skills   Skill[]
+}
+
+model Skill {
+  id       String  @id @default(cuid())
+  topicId  String
+  topic    Topic   @relation(fields: [topicId], references: [id])
+  code     String  @unique
+  name     String
+  difficulty String
+  questionSkills QuestionSkill[]
+  attemptSkills  AttemptSkill[]
+}
+
+model Question {
+  id          String  @id @default(cuid())
+  stem        String
+  difficulty  String
+  tags        String  // Changed from String[] to String for SQLite compatibility
+  skills      QuestionSkill[]
+}
+
+model QuestionSkill {
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id])
+  skillId    String
+  skill      Skill    @relation(fields: [skillId], references: [id])
+  @@id([questionId, skillId])
+}
+
+model Attempt {
+  id            String   @id @default(cuid())
+  studentId     String
+  questionId    String
+  outcome       String
+  errorType     String?
+  timeTakenSec  Int
+  attemptsCount Int
+  hintsUsed     Int
+  createdAt     DateTime @default(now())
+  skills        AttemptSkill[]
+}
+
+model AttemptSkill {
+  attemptId String
+  attempt   Attempt @relation(fields: [attemptId], references: [id])
+  skillId   String
+  skill     Skill   @relation(fields: [skillId], references: [id])
+  @@id([attemptId, skillId])
+}
+
+model Mastery {
+  id          String   @id @default(cuid())
+  studentId   String
+  skillId     String
+  score       Float
+  lastUpdated DateTime @default(now())
+  exposures   Int      @default(0)
+}

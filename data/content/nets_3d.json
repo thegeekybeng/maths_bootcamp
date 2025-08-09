@@ -1,0 +1,34 @@
+{
+  "overview": "Identify and draw nets of common 3D solids.",
+  "objectives": ["Recognise nets of cubes/cuboids"],
+  "refresher": "A net is a 2D pattern that folds into a 3D solid.",
+  "examples": {
+    "F": [{"title": "Cube net", "steps": ["6 squares arranged to fold into a cube"]}]
+  },
+  "practice": [
+    {"id": "p_net_001", "stem": "How many faces does a cuboid have?", "answer_steps": [
+      "Step 1: A cuboid has 6 flat faces.",
+      "Step 2: Each face is a rectangle.",
+      "Step 3: The answer is 6."
+    ], "skills": ["nets_cubes_cuboids"], "difficulty": "F"}
+  ],
+  "hints": ["Count faces, edges, vertices.", "Sketch the net if unsure."],
+  "common_mistakes": ["Confusing faces with edges"],
+  "reflection": ["What shapes can be faces of a cuboid?"],
+
+  "section_test": [
+    {"id": "st_net_001", "stem": "How many edges does a cube have?", "answer_steps": [
+      "Step 1: A cube has 12 edges.",
+      "Step 2: The answer is 12."
+    ], "skills": ["nets_cubes_cuboids"], "difficulty": "F"},
+    {"id": "st_net_002", "stem": "How many vertices does a cuboid have?", "answer_steps": [
+      "Step 1: A cuboid has 8 vertices.",
+      "Step 2: The answer is 8."
+    ], "skills": ["nets_cubes_cuboids"], "difficulty": "F"},
+    {"id": "st_net_003", "stem": "What is a net of a cube?", "answer_steps": [
+      "Step 1: A net is a 2D pattern that folds into a 3D solid.",
+      "Step 2: A cube's net has 6 equal squares.",
+      "Step 3: The answer is 6 squares arranged to fold into a cube."
+    ], "skills": ["nets_cubes_cuboids"], "difficulty": "F"}
+  ]
+}

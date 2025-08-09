@@ -1,0 +1,152 @@
+{
+  "version": "0.1.0",
+  "syllabus": "PSLE-SG",
+  "strands": [
+    {
+      "id": "numbers",
+      "name": "Numbers and Operations",
+      "subtopics": [
+        {
+          "id": "whole_numbers",
+          "name": "Whole Numbers and Place Value",
+          "skills": [
+            { "id": "read_write_compare", "name": "Read/Write/Compare Numbers", "difficulty": ["F", "S"] },
+            { "id": "rounding", "name": "Rounding", "difficulty": ["F", "S"] },
+            { "id": "factors_multiples", "name": "Factors and Multiples", "difficulty": ["S"] }
+          ]
+        },
+        {
+          "id": "fractions",
+          "name": "Fractions",
+          "skills": [
+            { "id": "equivalents", "name": "Equivalent Fractions", "difficulty": ["F", "S"] },
+            { "id": "ops_frac", "name": "Operations with Fractions", "difficulty": ["S", "T"] },
+            { "id": "mixed_numbers", "name": "Mixed Numbers", "difficulty": ["S"] }
+          ]
+        },
+        {
+          "id": "decimals",
+          "name": "Decimals",
+          "skills": [
+            { "id": "place_value_dec", "name": "Decimal Place Value", "difficulty": ["F", "S"] },
+            { "id": "ops_dec", "name": "Operations with Decimals", "difficulty": ["S"] }
+          ]
+        },
+        {
+          "id": "percentages",
+          "name": "Percentages",
+          "skills": [
+            { "id": "percent_of", "name": "Percentage of Quantity", "difficulty": ["S"] },
+            { "id": "percent_change", "name": "Percentage Increase/Decrease", "difficulty": ["S", "T"] }
+          ]
+        },
+        {
+          "id": "ratios",
+          "name": "Ratios",
+          "skills": [
+            { "id": "ratio_basics", "name": "Basic Ratios", "difficulty": ["S"] },
+            { "id": "ratio_scaling", "name": "Scaling with Ratios", "difficulty": ["S", "T"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "measurement_geometry",
+      "name": "Measurement and Geometry",
+      "subtopics": [
+        {
+          "id": "length_mass_volume",
+          "name": "Length, Mass, Volume",
+          "skills": [
+            { "id": "unit_convert", "name": "Unit Conversions", "difficulty": ["F", "S"] },
+            { "id": "perimeter_volume", "name": "Perimeter/Volume Basics", "difficulty": ["F", "S"] }
+          ]
+        },
+        {
+          "id": "time",
+          "name": "Time",
+          "skills": [
+            { "id": "elapsed_time", "name": "Elapsed Time", "difficulty": ["F", "S"] },
+            { "id": "timetables", "name": "Timetables", "difficulty": ["S"] }
+          ]
+        },
+        {
+          "id": "area",
+          "name": "Area",
+          "skills": [
+            { "id": "area_rectangles_triangles", "name": "Area of Rectangles/Triangles", "difficulty": ["S"] },
+            { "id": "area_composite", "name": "Composite Area", "difficulty": ["S", "T"] }
+          ]
+        },
+        {
+          "id": "angles_triangles",
+          "name": "Angles and Triangles",
+          "skills": [
+            { "id": "angle_properties", "name": "Angle Properties", "difficulty": ["S"] },
+            { "id": "triangle_properties", "name": "Triangle Properties", "difficulty": ["S"] }
+          ]
+        },
+        {
+          "id": "circles",
+          "name": "Circles",
+          "skills": [
+            { "id": "circumference_area", "name": "Circumference and Area", "difficulty": ["S", "T"] }
+          ]
+        },
+        {
+          "id": "nets_3d",
+          "name": "Nets and 3D Solids",
+          "skills": [
+            { "id": "nets_cubes_cuboids", "name": "Nets of Cubes/Cuboids", "difficulty": ["S"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "algebra",
+      "name": "Algebra and Functions",
+      "subtopics": [
+        {
+          "id": "patterns",
+          "name": "Numerical Patterns",
+          "skills": [
+            { "id": "term_to_term", "name": "Term-to-term Rules", "difficulty": ["F", "S"] }
+          ]
+        },
+        {
+          "id": "algebraic_thinking",
+          "name": "Algebraic Thinking",
+          "skills": [
+            { "id": "unknowns_expressions", "name": "Unknowns and Simple Expressions", "difficulty": ["S"] },
+            { "id": "simple_equations", "name": "Simple Equations (balance)", "difficulty": ["S"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data_stats",
+      "name": "Data and Statistics",
+      "subtopics": [
+        {
+          "id": "graphs",
+          "name": "Tables and Graphs",
+          "skills": [
+            { "id": "read_interpret_graphs", "name": "Read and Interpret Graphs", "difficulty": ["F", "S"] }
+          ]
+        },
+        {
+          "id": "average_mean",
+          "name": "Average/Mean",
+          "skills": [
+            { "id": "mean_basics", "name": "Mean Basics", "difficulty": ["S"] }
+          ]
+        }
+      ]
+    }
+  ],
+  "difficultyLegend": {
+    "F": "Foundation",
+    "S": "Standard",
+    "T": "Stretch"
+  }
+}

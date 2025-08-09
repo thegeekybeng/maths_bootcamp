@@ -1,0 +1,36 @@
+{
+  "overview": "Percentages are fractions out of 100.",
+  "objectives": ["Find percentage of a quantity", "Solve increase/decrease problems"],
+  "refresher": "x% = x/100. Multiply by the base quantity.",
+  "examples": {
+    "S": [{"title": "Find 20% of 150", "steps": ["20% = 20/100 = 0.2", "0.2 × 150 = 30"]}]
+  },
+  "practice": [
+    {"id": "p_pct_001", "stem": "Find 15% of 200", "answer_steps": [
+      "Step 1: Convert 15% to a decimal: 15/100 = 0.15.",
+      "Step 2: Multiply 0.15 × 200 = 30.",
+      "Step 3: The answer is 30."
+    ], "skills": ["percent_of"], "difficulty": "S"}
+  ],
+  "hints": ["Convert % to decimal or fraction.", "Multiply by the base quantity."],
+  "common_mistakes": ["Dividing by 100 twice"],
+  "reflection": ["What does a percentage compare against?"],
+
+  "section_test": [
+    {"id": "st_pct_001", "stem": "Find 25% of 80", "answer_steps": [
+      "Step 1: Convert 25% to a decimal: 25/100 = 0.25.",
+      "Step 2: Multiply 0.25 × 80 = 20.",
+      "Step 3: The answer is 20."
+    ], "skills": ["percent_of"], "difficulty": "S"},
+    {"id": "st_pct_002", "stem": "What is 10% of 150?", "answer_steps": [
+      "Step 1: Convert 10% to a decimal: 10/100 = 0.1.",
+      "Step 2: Multiply 0.1 × 150 = 15.",
+      "Step 3: The answer is 15."
+    ], "skills": ["percent_of"], "difficulty": "F"},
+    {"id": "st_pct_003", "stem": "Increase 60 by 20%.", "answer_steps": [
+      "Step 1: Find 20% of 60: 0.2 × 60 = 12.",
+      "Step 2: Add to original: 60 + 12 = 72.",
+      "Step 3: The answer is 72."
+    ], "skills": ["percent_increase"], "difficulty": "S"}
+  ]
+}

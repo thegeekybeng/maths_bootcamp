@@ -1,0 +1,14 @@
+{
+  "overview": "Measure and convert between common metric units.",
+  "objectives": ["Convert units of length, mass, and volume", "Find perimeter and simple volumes"],
+  "refresher": "Metric prefixes: mm, cm, m, km; g, kg; ml, l.",
+  "examples": {
+    "F": [{"title": "Convert 3.5 m to cm", "steps": ["1 m = 100 cm", "3.5 × 100 = 350 cm"]}]
+  },
+  "practice": [
+    {"id": "p_len_001", "stem": "Convert 2500 g to kg", "answer": "2.5 kg", "skills": ["unit_convert"], "difficulty": "F"}
+  ],
+  "hints": ["Use a unit ladder or place-value table."],
+  "common_mistakes": ["Multiplying when you should divide"],
+  "reflection": ["How do prefixes change unit size?"]
+}

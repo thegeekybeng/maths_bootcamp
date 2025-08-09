@@ -1,0 +1,14 @@
+{
+  "overview": "Read and interpret tables and graphs.",
+  "objectives": ["Extract data from tables and graphs", "Compare values"],
+  "refresher": "Check axes labels and units.",
+  "examples": {
+    "F": [{"title": "Bar chart reading", "steps": ["Find bar height", "Match to scale"]}]
+  },
+  "practice": [
+    {"id": "p_graph_001", "stem": "If the bar for Monday is 8 and Tuesday is 5, which is larger?", "answer": "Monday", "skills": ["read_interpret_graphs"], "difficulty": "F"}
+  ],
+  "hints": ["Trace to axes"],
+  "common_mistakes": ["Misreading scale"],
+  "reflection": ["Why do axes start at 0 or not?"]
+}
