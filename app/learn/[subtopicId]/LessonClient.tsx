@@ -168,14 +168,14 @@ export function LessonClient({ content }: { content: SubtopicContent }) {
                 {showAnswer && (
                   <div style={{ marginTop: 4 }}>
                     <p style={{ margin: 0 }}>Answer:</p>
-                    {Array.isArray(q.answer_steps) ? (
+                    {Array.isArray((q as any).answer_steps) ? (
                       <ol style={{ margin: 0, paddingLeft: 20 }}>
-                        {q.answer_steps.map((step: string, i: number) => (
+                        {((q as { answer_steps?: string[] }).answer_steps ?? []).map((step, i) => (
                           <li key={i}>{step}</li>
                         ))}
                       </ol>
                     ) : (
-                      <span>{q.answer}</span>
+                      <span>{(q as any).answer ?? ''}</span>
                     )}
                   </div>
                 )}
