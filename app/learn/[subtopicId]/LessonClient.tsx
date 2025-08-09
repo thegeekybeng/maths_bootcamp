@@ -170,7 +170,7 @@ export function LessonClient({ content }: { content: SubtopicContent }) {
                     <p style={{ margin: 0 }}>Answer:</p>
                     {Array.isArray((q as any).answer_steps) ? (
                       <ol style={{ margin: 0, paddingLeft: 20 }}>
-                        {((q as { answer_steps?: string[] }).answer_steps ?? []).map((step, i) => (
+                        {((q as { answer_steps?: string[] }).answer_steps ?? []).map((step: string, i: number) => (
                           <li key={i}>{step}</li>
                         ))}
                       </ol>
